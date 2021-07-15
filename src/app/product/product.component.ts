@@ -4,7 +4,7 @@ import { Component,
   Output,
   EventEmitter,
   SimpleChange} from '@angular/core';
-import { Product } from '../ProductModel.model';
+import { Product } from '../product.model';
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
